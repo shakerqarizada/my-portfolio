@@ -9,3 +9,12 @@ closeButtons.forEach((btn) => {
     document.querySelector("#nav-menu").classList.add("hidden")
   );
 });
+
+snowFall.snow(document.querySelector("body"), {
+  round: true,
+  minSize: 1,
+  maxSize: 6,
+  shadow: true,
+  flakeCount: 150,
+  flakeColor: "Snow",
+});
